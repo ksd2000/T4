@@ -1,0 +1,466 @@
+@media screen and (min-width: 1201px) {
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .banner,
+    .about,
+    .projects,
+    .process,
+    .services,
+    .our,
+    .blogs,
+    .contact,
+    footer{
+        margin:0;
+    }
+
+    /*-- HEADER --*/
+    .logo{
+        font-size: 100px;
+    }
+
+    /* --SERVICES-- */
+    .services_headline{
+        width: 20%;
+    }
+    .services_block{
+        width: 32%;
+        padding: 5vw 0 0 3%;
+    }
+
+    /* --TEST-- */
+    .testimonials{
+        padding-left: 0;
+    }
+
+    /* --CONTACT-- */
+    .contact-map{
+        height: 80vw;
+    }
+    .contact-mail{
+      height: 80vw;
+    }
+    .contact-form_name{
+        width: 90%;
+    }
+    .contact-form_tlf{
+      width: 35%;
+    }
+    .contact-form_email{
+      width: 46%;
+      margin-left: 5.5%;
+    }
+    .contact-form_txt{
+      width: 90%;
+    }
+    .contact-form_btn{
+      width: 106px;
+      margin-right: 64px;
+      background-color: rgb(255, 198, 0);
+      padding-left: 0;
+      color: black;
+      cursor: pointer;
+    }
+    /* --FOOTER-- */
+    .footer-banner{
+        width: 69%;
+    }
+    .footer-slogan{
+      font-size: 4.4vw;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .banner,
+    .about,
+    .projects,
+    .process,
+    .services,
+    .our,
+    .blogs,
+    .contact,
+    footer{
+        margin:0;
+    }
+
+    h1{
+        font-size: 24px;
+      }
+
+    /*-- HEADER --*/
+    .logo{
+        margin-left:0;
+        padding-left: 10%;
+        padding-top: 80px;
+        font-size: 100px;
+    }
+    .sublime__txt{
+        font-size: 16px;
+    }
+
+    /* -- ABOUT-- */
+    .size_first{
+        font-size: 35px;
+      }
+    .about-name__log_size{
+        font-size: 44px;
+    }
+
+    /* --PROJECTS-- */
+    .projects_headline{
+        padding-left: 1%;
+    }
+    .projects-menu{
+        padding-left: 1%;
+    }
+
+    /* --PROCESS-- */
+    .process{
+        padding-left: 1%;
+    }
+    .process-strategic-txt{
+        padding-right: 1%;
+    }
+    .process-our{
+        padding-left: 1%;
+    }
+    .process-method{
+        padding-left: 1%;
+    }
+    .process-outcome{
+        padding-left: 1%;
+    }
+
+    /* --SERVICES-- */
+    .services{
+        height: 42vw;
+    }
+    .services_headline{
+        width: 20%;
+        padding-left: 1%;
+    }
+    .services_block{
+        width: 35%;
+        padding: 5vw 0 0 3%;
+    }
+
+    /* --OUR-- */
+    .our{
+        height: 40vw;
+    }
+    .our_headline{
+        width: 21%;
+        height: 25vw;
+        padding-right: 4%;
+        padding-left: 1%;
+    }
+
+    /* --TEST-- */
+    .testimonials{
+        padding-left: 0;
+        margin-left: 1%;
+    }
+
+    /* --BLOGS-- */
+    .blogs{
+        height: 50vw;
+        padding-left: 1%;
+    }
+    .blogs-menu{
+        left: 1%;
+    }
+
+    /* --CONTACT-- */
+    .contact-map{
+        display: none;
+    }
+    .contact-mail{
+        height: 90vw;
+        padding-left: 1%;
+        font-family: 'MyriadProRegular';
+        color: white;
+        font-size: 16px;
+    }
+    .contact-form_name{
+        width: 42%;
+        margin-left: 1%;
+    }
+    .contact-form_tlf{
+      width: 34%;
+      margin-left: 10%;
+    }
+    .contact-form_email{
+      width: 42%;
+      margin-left: 1%;
+    }
+    .contact-form_txt{
+      width: 89%;
+      margin-left: 1%;
+    }
+    .contact-form_btn{
+      width: 106px;
+      background-color: rgb(255, 198, 0);
+      padding-left: 0;
+      color: black;
+      cursor: pointer;
+      margin-left: 1%;
+    }
+    .contact-mail p{
+        margin-left: 1%;
+    }
+
+    /* --FOOTER-- */
+    .footer{
+        height: 600px;
+        padding-left: 1%;
+    }
+    .footer-log{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .footer-banner{
+        width: 69%;
+        height: 600px;
+    }
+    .footer-slogan{
+      font-size: 4.4vw;
+    }
+}
+@media screen and (max-width: 640px) and (min-width: 320px) {
+    .banner,
+    .about,
+    .projects,
+    .process,
+    .services,
+    .our,
+    .blogs,
+    .contact,
+    footer{
+        margin:0;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    /*-- HEADER --*/
+    .logo{
+        margin-left:0;
+        padding-left: 0;
+        padding-top: 80px;
+        font-size: 50px;
+        margin: 0 50px;
+    }
+    .sublime__txt{
+        width: 81%;
+        font-size: 16px;
+        margin: 50px 0;
+        margin-left: 7%;
+    }
+    .sublime-download{
+        padding: 10px 0;
+        padding-left: 4%;
+    }
+    .banner__txt{
+        font-size: 36px;
+    }
+
+    /* -- ABOUT-- */
+    .about-name{
+        display: unset;
+    }
+    .about-name__log{
+        width: 60%;
+        padding-top: 24px;
+        padding-left: 1%;
+    }
+    .size_first{
+        font-size: 30px;
+    }
+    .about-name__log_size{
+        font-size: 34px;
+    }
+    .about-name__line{
+        display: none;
+    }
+    .about-name__txt{
+        width: unset;
+        padding: 20px 1.6% 0 1.6%;
+    }
+    .about-block__txt{
+        height: unset;
+        width: 90%;
+    }
+    .about-block__txt_img{
+        display: none;
+      }
+      .about-block__txt_headline{
+        padding: 16px 0;
+    }
+    .banner-menu{
+        display: unset;
+        font-size: 28px;
+    }
+    .banner-menu__item{
+        padding-right: 0;
+        padding-left: 4%;
+        width: 60%;
+        margin-left: 4%;
+    }
+    .banner-menu_link{
+        display: block;
+        padding: 10px 0;
+        padding-left: 15px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+    }
+
+    /* --PROJECTS-- */
+    .projects{
+        padding-top: 20px;
+        position: relative;
+    }
+    .projects_headline{
+        padding-left: 1%;
+        margin-bottom: 0;
+    }
+    .projects-menu{
+        padding-left: 1%;
+        margin-bottom: 0;
+        display: unset;
+        position: absolute;
+        top: 100px;
+    }
+    .projects-menu__item{
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 26px;
+        background-color: rgba(47, 17, 0, 0.5);
+    }
+    .projects-menu__link{
+        font-family: 'MyriadProBold';
+        color: rgb(255, 198, 0);
+        font-size: 20px;
+        padding: 8px 0;
+        text-align: center;
+        display: block;
+    }
+    .projects-menu__link:hover{
+        color: white;
+    }
+    .projects-menu__link:hover::after{
+        display: none;
+    }
+    .projects-foto_img{
+        width: 50%;
+    }
+    .projects-foto_img:nth-child(4n+1){
+        display: none;
+    }
+
+    /* --PROCESS-- */
+    .process{
+        display: none;
+    }
+
+    /* --SERVICES-- */
+    .services{
+        display: none;
+    }
+
+    /* --OUR-- */
+    .our{
+        display: none;
+    }
+
+    .testimonials{
+        display: none;
+    }
+
+    /* --BLOGS-- */
+    .blogs{
+        height: 400px;
+        padding-left: 1%;
+        padding-top: 20px;
+    }
+    .blogs-menu{
+        left: 1%;
+        top: 70px;
+    }
+    .blogs-menu_item{
+        padding-top: 0;
+        margin-bottom: 25px;
+    }
+    .blogs-menu_link{
+        padding: 8px 0;
+    }
+    .blogs-season{
+        display: none;
+    }
+
+    /* --CONTACT-- */
+    .contact-map{
+        display: none;
+    }
+    .contact-mail{
+        height: 560px;
+        padding-left: 1%;
+        font-family: 'MyriadProRegular';
+        color: white;
+        font-size: 16px;
+    }
+    .contact-form_name{
+        width: 90%;
+        margin-left: 1%;
+    }
+    .contact-form_tlf{
+      width: 34%;
+      margin-left: 1%;
+    }
+    .contact-form_email{
+      width: 48.5%;
+      margin-left: 1%;
+    }
+    .contact-form_txt{
+      width: 89%;
+      margin-left: 1%;
+    }
+    .contact-form_btn{
+      width: 106px;
+      background-color: rgb(255, 198, 0);
+      padding-left: 0;
+      color: black;
+      cursor: pointer;
+      margin-left: 1%;
+    }
+    .contact-mail p{
+        margin-left: 1%;
+    }
+    .contact-mail_line{
+        display: none;
+    }
+
+    /* --FOOTER-- */
+    .footer{
+        height: 480px;
+        width: 99%;
+        padding-left: 1%;
+    }
+    .footer-log{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .footer-menu{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    .footer-banner{
+        display: none;
+    }
+    .footer-slogan{
+      font-size: 4.4vw;
+    }
+}
